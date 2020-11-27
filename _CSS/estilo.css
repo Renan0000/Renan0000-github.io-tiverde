@@ -1,0 +1,176 @@
+body {
+    font-family: Karla, sans-serif;
+    color: #ffffff;
+    background-color: #191970;
+    font-size: 17px;
+}
+p {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 17px;
+}
+/* MENU */
+h1,h2,h3 {
+    font-family: Goldman, cursive;
+    color: #000000;
+    font-size: 20px;
+}
+.botao {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #191970;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* cor do menu de cima aqui */
+    background-color: #191970;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Goldman,serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+header {
+    display: relative;
+    padding: 10px 0;
+    background-color: #606060c4;
+
+}
+.plan {
+    display: center;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    border: 50%;
+    
+}
+header h1 {
+    top: -110px;
+}
+header p {
+width: 100%;
+text-align: center;
+
+
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: #191970;
+    color: #ffffff;
+}
+
+#sobre h2 {
+    color: #ffffff;
+}
+
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+
+#sobre .botao {
+	background-color: #f1f1f1;
+	color: #1c1c1c;
+	
+}
+nav#uti {
+    text-align: center;
+}
+
+ #utilidades {
+     display: flex;
+     flex-direction: center;
+     align-items: center;
+     padding: 30px;
+     background-color: #606060c4;
+     color: #ffffff;
+ }
+
+ #utilidades div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: large;
+   
+ }
+
+ #utilidades  {
+
+ }
+
+ #baixe {
+	display: block;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+    padding: 10px;
+    background-color: #191970;
+    color: #ffffff;
+}
+.baixe h2{
+    color: #ffffff;
+}
+.botao1 {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #191970;
+    font-size: .9em;
+    border-radius: 3px;
+    background-color: #000000;
+    color: #ffffff;
+    position: absolute;
+    left: 614px;
+    bottom: -810px;
+   
+}
+
+section#utilidades p {
+    font-size: 15px;
+    
+}
+
+
+
+
+
