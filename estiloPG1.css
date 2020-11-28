@@ -1,0 +1,145 @@
+body {
+    font-family: Karla, sans-serif;
+    color: #ffffff;
+    background-color: #191970;
+    font-size: 17px;
+}
+p {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size: 17px;
+}
+img {
+    align-items: center;
+    text-align: center;
+}
+/* MENU */
+h1,h2,h3 {
+    font-family: Goldman, cursive;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+}
+
+.botao {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #191970;
+    font-size: .9em;
+    border-radius: 3px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* cor do menu de cima aqui */
+    background-color: #191970;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 32px;
+    font-family: Goldman,serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*COMO FAZER O REGISTRO HEADER*/
+
+header {
+    display: center;
+    padding: 10px 0;
+    background-color: #606060c4;
+
+}
+header#registro {
+    display: relative;
+    width: 100%;
+    padding: 10px 0;
+
+}
+
+div#Acesse {
+    display: center;
+    text-align: center;
+    max-height: 100%;
+    width: auto;
+
+}
+
+
+/* COMO UTILIZAR */
+div#Utilizar1 {
+    display: center;
+    padding: 10px 0;
+    background-color: #191970;
+    width: auto;
+}
+div#Utilizar2 {
+    display: center;
+    padding: 10px 0;
+    background-color: #606060c4;
+    width: auto;
+
+}
+
+/* imagens */
+.IMG {
+display: center;
+text-align: center;
+max-width: 100%;
+height: auto;}
+
+/* PARTE DO IOS E ANDROID PARA BAIXAR */
+#baixe {
+	display: block;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+    padding: 10px;
+    background-color: #191970;
+    color: #ffffff;
+}
+.baixe h2{
+    color: #ffffff;
+}
+.botao1 {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #191970;
+    font-size: .9em;
+    border-radius: 3px;
+    background-color: #000000;
+    color: #ffffff;
+    position: absolute;
+    left: 614px;
+    bottom: -810px;
+   
+}
+	
+
